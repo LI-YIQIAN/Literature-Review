@@ -1,4 +1,22 @@
-body {margin:2em; background-color:beige;}
-.p120 {font-size: 120%; font-weight: bold;}
-em{color: darkred; background-color: #ffffff; font-size: larger;}
+body {margin:2em; background-color:beige;
+    font-size: 100%;
+    padding: 10pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1em;}
+.p120 {font-size: 200%; font-weight: bold; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+em {color: darkred; background-color: #ffffff; font-size: larger;}
+
 #line-height {line-height: 2;}
+
+img {width:450px;height:300px}
+
+th {background-color:rgb(89, 106, 151);color:whitesmoke;padding:4px}
+td {background-color:lightgray;color:black;padding:4px}
+
+li {font-size: larger; font-weight: bold;}
+
+@media screen and (max-width:1170px) {
+    body{font-size:10px}
+    h2{font-size:12px;padding:1px}
+    img {width:350px;height:200px}
+}
